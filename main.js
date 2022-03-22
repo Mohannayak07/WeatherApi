@@ -17,7 +17,7 @@ btn.addEventListener('click',function(){
         hmdty.innerHTML='Humidity : '+data.main.humidity+'%';
         temp.innerHTML=Math.round(tempval-273.15)+'°<span>C</span>';
         desc.innerHTML=descval;
-        img.innerHTML='<img src=`http://openweathermap.org/img/w/${iconid}.png` alt="icon">'
+        img.innerHTML='<img src="http://openweathermap.org/img/w/${iconid}.png" alt="icon">'
         
     })
     .catch(err=>{
